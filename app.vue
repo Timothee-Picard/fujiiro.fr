@@ -1,7 +1,22 @@
 <template>
-  <div>
-    <nuxt-link :to="{ name: 'index' }">Home</nuxt-link>
-    <nuxt-link :to="{ name: 'about' }">Create</nuxt-link>
+  <NuxtLayout>
     <NuxtPage />
-  </div>
+  </NuxtLayout>
 </template>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#__nuxt {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #EBEFF0;
+}
+#__nuxt > main {
+  flex-grow: 1;
+}
+</style>
