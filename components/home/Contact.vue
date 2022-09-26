@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h4>Contactez-moi <img src="~/assets/img/Groupe%20124.svg" alt=""> </h4>
+    <h4>Contactez-moi <img src="~/assets/img/papillon.svg" alt=""> </h4>
     <p>Lorem Ipsum, giving information on its origins, as well as a random Lipsumgenerator.Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.r</p>
     <div>
       <input type="text" name="" id="">

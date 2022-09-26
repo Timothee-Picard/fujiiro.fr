@@ -8,7 +8,7 @@
       <input type="submit">
     </div>
     <aside>
-      <img src="~/assets/img/Groupe%20185.png">
+      <img src="~/assets/img/patern.png">
     </aside>
   </header>
 </template>
