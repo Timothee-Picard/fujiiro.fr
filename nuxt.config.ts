@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
     target: 'static',
     app: {
-        baseURL: '/fujiiro.fr/'
+        baseURL: '/fujiiro.fr'
+    },
+    publicRuntimeConfig: {
+        baseURL: '/fujiiro.fr'
     }
 })
