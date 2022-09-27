@@ -1,7 +1,7 @@
 <template>
-  <header :class="stateMenu">
+  <header>
     <div class="menu">
-      <div class="ico-menu" @click="toggleMenu()">
+      <div class="ico-menu">
         <i class="ico-menu-square"></i>
         <i class="ico-menu-square"></i>
         <i class="ico-menu-square"></i>
@@ -15,34 +15,34 @@
       <img src="~/assets/img/papillon_menu.svg" alt="" srcset="">
     </div>
   </header>
-  <div class="content" v-if="stateMenu">
-    <nav>
-      <nuxt-link :to="{ name: 'index' }" @click="toggleMenu()">Mes services</nuxt-link>
-      <nuxt-link :to="{ name: 'realisations' }" @click="toggleMenu()">Réalisation</nuxt-link>
-      <nuxt-link :to="{ name: 'contact' }" @click="toggleMenu()">Contact</nuxt-link>
-    </nav>
-    <div>
-      AAAAAAAAA
-    </div>
-  </div>
+<!--  <div class="content" v-if="stateMenu">-->
+<!--    <nav>-->
+<!--      <nuxt-link :to="{ name: 'index' }" @click="toggleMenu()">Mes services</nuxt-link>-->
+<!--      <nuxt-link :to="{ name: 'realisations' }" @click="toggleMenu()">Réalisation</nuxt-link>-->
+<!--      <nuxt-link :to="{ name: 'contact' }" @click="toggleMenu()">Contact</nuxt-link>-->
+<!--    </nav>-->
+<!--    <div>-->
+<!--      AAAAAAAAA-->
+<!--    </div>-->
+<!--  </div>-->
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      stateMenu: null
-    }
-  },
-  methods: {
-    toggleMenu() {
-      const body = document.body;
-      this.stateMenu = this.stateMenu? null : 'active'
-      // body.style.position = this.stateMenu? 'fixed' : ''
-    }
-  }
-}
-</script>
+<!--<script>-->
+<!--export default {-->
+<!--  data() {-->
+<!--    return {-->
+<!--      stateMenu: null-->
+<!--    }-->
+<!--  },-->
+<!--  methods: {-->
+<!--    toggleMenu() {-->
+<!--      // const body = document.body;-->
+<!--      this.stateMenu = this.stateMenu? null : 'active'-->
+<!--      // body.style.position = this.stateMenu? 'fixed' : ''-->
+<!--    }-->
+<!--  }-->
+<!--}-->
+<!--</script>-->
 
 <style scoped>
 header {
