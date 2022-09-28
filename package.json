@@ -1,16 +1,10 @@
 {
-  "name": "example-app",
-  "description": "a really cool app",
-  "version": "1.0.0",
-  "engines": {
-    "node": "16.17.0"
-  },
   "private": true,
   "scripts": {
+    "build": "nuxt build",
     "dev": "nuxt dev",
-    "build": "node_modules/nuxt/bin/nuxt.js build -c ./nuxt.config.js",
-    "start": "node_modules/nuxt/bin/nuxt.js start -c ./nuxt.config.js",
     "generate": "nuxt generate",
+    "start": "node .output/server/index.mjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
