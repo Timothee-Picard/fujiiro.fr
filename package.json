@@ -6,7 +6,7 @@
     "start": "node_modules/nuxt/bin/nuxt.js start -c ./nuxt.config.js",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "nuxt": "3.0.0-rc.11"
