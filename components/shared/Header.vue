@@ -121,16 +121,16 @@ header.active {
     top: 11px;
     left: 11px;
     &-1 {
-      animation: topLeft 1s forwards;
+      animation: topLeft 0.5s forwards;
     }
     &-3 {
-      animation: topRight 1s forwards;
+      animation: topRight 0.5s forwards;
     }
     &-7 {
-      animation: bottomLeft 1s forwards;
+      animation: bottomLeft 0.5s forwards;
     }
     &-9 {
-      animation: bottomRight 1s forwards;
+      animation: bottomRight 0.5s forwards;
     }
   }
 }
