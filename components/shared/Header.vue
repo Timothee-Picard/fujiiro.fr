@@ -1,6 +1,6 @@
 <template>
-  <header>
-    <div class="menu">
+  <header :class="stateMenu">
+    <div class="menu" @click="toggleMenu()">
       <div class="ico-menu">
         <i class="ico-menu-square"></i>
         <i class="ico-menu-square"></i>
